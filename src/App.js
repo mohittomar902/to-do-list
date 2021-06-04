@@ -42,7 +42,7 @@ function App() {
                  <h1> <span className="na1">To</span><span className="na2">Do</span><span className="na3">List</span></h1>
             </div>
            <div className="datItem" >
-                <input className="dataItem" type="text" placeholder="Add Task...."
+                <input  type="text" placeholder="Add Task...."
                     value={inputData}
                    onChange = {(e) =>setInputData(e.target.value)}
                             />
