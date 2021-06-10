@@ -10,7 +10,7 @@
   background-color: rgb(215, 224, 224);
   border-radius: 10px;
   margin: 20px;
-  width: auto;
+  width: 360px;
 }
 .na{
  text-align: center;
@@ -32,20 +32,27 @@
   
 }
 
+.data-div{
 
-input{
-  padding-left: 1rem;
+  display: flex;
+ justify-content:space-between;
+  align-items: center;
+
+}
+.data-div i :hover{
+  background-color: aliceblue;
+}
+
+
+.datItem{
+  
+  
+  margin-left: 20px;
   background-color: rgb(208, 224, 219);
   border-radius: 9px;
-  margin-left: 20px;
-}
-.dataItem{
-  
-  
-  display: flex;
-  justify-content:space-between;
-   align-items: center;
-  
+  font-size: large;
+  padding: 8px;
+  padding-right: 30px;
   
 }
 .add-btn :hover{
@@ -53,12 +60,22 @@ input{
 color: forestgreen;
 
 }
+.edit-btn{
+  
+  padding: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 15px;
+  border-radius: 30px;
+  font-size: larger;
+  color: aliceblue;
+  background-color: rgb(34, 158, 23);
+}
 .add-btn{
-  margin-right: 5px;
+  margin-right: 12px;
 padding: 8px;
 padding-left: 10px;
 padding-right: 10px;
-margin-left: 10px;
 border-radius: 30px;
 font-size: larger;
 color: aliceblue;
@@ -101,7 +118,7 @@ background-color: rgb(228, 51, 51);
 
 .showItems .eachItem h3 {
   padding-left: 1rem;
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   color: rgb(17, 16, 16);
 }
 .btns :hover{
@@ -109,4 +126,8 @@ background-color: rgb(228, 51, 51);
 }
 .btns{
   margin-right: 10px;
+  
+  display: flex;
+ justify-content:space-between;
+  align-items: center;
 }
